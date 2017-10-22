@@ -1,0 +1,1448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		352531D01AB76D33004747E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352531CF1AB76D33004747E6 /* AppDelegate.swift */; };
+		352531D21AB76D33004747E6 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352531D11AB76D33004747E6 /* Map.swift */; };
+		352531D41AB76D33004747E6 /* AboutUsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352531D31AB76D33004747E6 /* AboutUsPage.swift */; };
+		352531D91AB76D33004747E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 352531D81AB76D33004747E6 /* Images.xcassets */; };
+		352531DC1AB76D33004747E6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 352531DA1AB76D33004747E6 /* LaunchScreen.xib */; };
+		352531E81AB76D33004747E6 /* JEETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352531E71AB76D33004747E6 /* JEETests.swift */; };
+		352531F21AB776F1004747E6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 352531F11AB776F1004747E6 /* MapKit.framework */; };
+		352531F61AB786D1004747E6 /* Directory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352531F51AB786D1004747E6 /* Directory.swift */; };
+		353374B31AE921B9003E0D6B /* Bethnal Green Great Synagogue.html in Resources */ = {isa = PBXBuildFile; fileRef = 353374B21AE921B9003E0D6B /* Bethnal Green Great Synagogue.html */; };
+		353374B91AE922AD003E0D6B /* Bethnal Green Great Synagogue 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 353374B51AE922AD003E0D6B /* Bethnal Green Great Synagogue 2.jpg */; };
+		353374BA1AE922AD003E0D6B /* Bethnal Green Great Synagogue 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 353374B61AE922AD003E0D6B /* Bethnal Green Great Synagogue 3.jpg */; };
+		353374BB1AE922AD003E0D6B /* Bethnal Green Great Synagogue 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 353374B71AE922AD003E0D6B /* Bethnal Green Great Synagogue 4.jpg */; };
+		353374BC1AE922AD003E0D6B /* Bethnal Green Great Synagogue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 353374B81AE922AD003E0D6B /* Bethnal Green Great Synagogue.jpg */; };
+		35729D8C1AE900A10028B09B /* LandMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35729D8B1AE900A10028B09B /* LandMark.swift */; };
+		359F8E121AEFD2520013A758 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 359F8E111AEFD2520013A758 /* AppIcon.png */; };
+		35C8CF901AB9D4DA008D2027 /* ContentStyle.css in Resources */ = {isa = PBXBuildFile; fileRef = 35C8CF8F1AB9D4DA008D2027 /* ContentStyle.css */; };
+		35FC5A0C1ABAEE1000A9FDC6 /* LastVisited.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FC5A0B1ABAEE1000A9FDC6 /* LastVisited.swift */; };
+		35FC5A141ABB11EB00A9FDC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35FC5A131ABB11EB00A9FDC6 /* Main.storyboard */; };
+		6C5C93921AED45E000A24E3D /* Bevis Marks Synagogue.html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C938E1AED45E000A24E3D /* Bevis Marks Synagogue.html */; };
+		6C5C93931AED45E000A24E3D /* Image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C938F1AED45E000A24E3D /* Image1.jpg */; };
+		6C5C93941AED45E000A24E3D /* Image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C93901AED45E000A24E3D /* Image2.jpg */; };
+		6C5C93951AED45E000A24E3D /* Image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C93911AED45E000A24E3D /* Image3.jpg */; };
+		6C5C94DC1AEE5F1800A24E3D /* Dirty Dicks 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C94D91AEE5F1800A24E3D /* Dirty Dicks 1.jpg */; };
+		6C5C94DD1AEE5F1800A24E3D /* Dirty Dicks 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C94DA1AEE5F1800A24E3D /* Dirty Dicks 2.jpg */; };
+		6C5C94DE1AEE5F1800A24E3D /* Dirty Dicks Pub.html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C94DB1AEE5F1800A24E3D /* Dirty Dicks Pub.html */; };
+		6C5C94EA1AEE612500A24E3D /* Brick Lane .html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C94E01AEE612500A24E3D /* Brick Lane .html */; };
+		6C5C94EB1AEE612500A24E3D /* Image 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C94E11AEE612500A24E3D /* Image 1.jpg */; };
+		6C5C94EC1AEE612500A24E3D /* Image 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C94E21AEE612500A24E3D /* Image 2.jpg */; };
+		6C5C94ED1AEE612500A24E3D /* Image 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C94E31AEE612500A24E3D /* Image 3.jpg */; };
+		6C5C94EE1AEE612500A24E3D /* Image 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C94E41AEE612500A24E3D /* Image 4.jpg */; };
+		6C5C94EF1AEE612500A24E3D /* Image 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C94E51AEE612500A24E3D /* Image 5.jpg */; };
+		6C5C94F01AEE612500A24E3D /* Image 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C94E61AEE612500A24E3D /* Image 6.jpg */; };
+		6C5C94F11AEE612500A24E3D /* Image 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C94E71AEE612500A24E3D /* Image 7.jpg */; };
+		6C5C94F21AEE612500A24E3D /* Image 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C94E81AEE612500A24E3D /* Image 8.jpg */; };
+		6C5C94F31AEE612500A24E3D /* Image 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C94E91AEE612500A24E3D /* Image 9.jpg */; };
+		6C5C94F61AEE664700A24E3D /* Eating Jewish in and Around Bloomsbury.html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C94F51AEE664700A24E3D /* Eating Jewish in and Around Bloomsbury.html */; };
+		6C5C94FA1AEE674300A24E3D /* Entrance Arch .html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C94F81AEE674300A24E3D /* Entrance Arch .html */; };
+		6C5C94FB1AEE674300A24E3D /* Entrance Arch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C94F91AEE674300A24E3D /* Entrance Arch.jpg */; };
+		6C5C95011AEE686E00A24E3D /* aboutus.html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95001AEE686E00A24E3D /* aboutus.html */; };
+		6C5C95061AEE6C9D00A24E3D /* Fieldgate Street Synagogue.html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95041AEE6C9D00A24E3D /* Fieldgate Street Synagogue.html */; };
+		6C5C95071AEE6C9D00A24E3D /* Fieldgate Street.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95051AEE6C9D00A24E3D /* Fieldgate Street.jpg */; };
+		6C5C950B1AEE6D4800A24E3D /* Fournier Street .html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95091AEE6D4800A24E3D /* Fournier Street .html */; };
+		6C5C950C1AEE6D4800A24E3D /* Fournier Street.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C950A1AEE6D4800A24E3D /* Fournier Street.jpg */; };
+		6C5C95171AEE6D9D00A24E3D /* Freedom Press .html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C950E1AEE6D9D00A24E3D /* Freedom Press .html */; };
+		6C5C95181AEE6D9D00A24E3D /* Freedom Press 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C950F1AEE6D9D00A24E3D /* Freedom Press 1.jpg */; };
+		6C5C95191AEE6D9D00A24E3D /* Freedom Press 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95101AEE6D9D00A24E3D /* Freedom Press 2.jpg */; };
+		6C5C951A1AEE6D9D00A24E3D /* Freedom Press 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95111AEE6D9D00A24E3D /* Freedom Press 3.png */; };
+		6C5C951B1AEE6D9D00A24E3D /* Freedom Press 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95121AEE6D9D00A24E3D /* Freedom Press 4.png */; };
+		6C5C951C1AEE6D9D00A24E3D /* Freedom Press 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95131AEE6D9D00A24E3D /* Freedom Press 5.jpg */; };
+		6C5C951D1AEE6D9D00A24E3D /* Freedom Press 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95141AEE6D9D00A24E3D /* Freedom Press 6.jpg */; };
+		6C5C951E1AEE6D9D00A24E3D /* Freedom Press 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95151AEE6D9D00A24E3D /* Freedom Press 7.jpg */; };
+		6C5C951F1AEE6D9D00A24E3D /* Freedom Press 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95161AEE6D9D00A24E3D /* Freedom Press 8.jpg */; };
+		6C5C95241AEE6E1B00A24E3D /* Hackney Wick 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95211AEE6E1B00A24E3D /* Hackney Wick 1.jpg */; };
+		6C5C95251AEE6E1B00A24E3D /* Hackney Wick 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95221AEE6E1B00A24E3D /* Hackney Wick 2.jpg */; };
+		6C5C95261AEE6E1B00A24E3D /* Hackney Wick and Walk back to Camden.html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95231AEE6E1B00A24E3D /* Hackney Wick and Walk back to Camden.html */; };
+		6C5C952A1AEE6E9700A24E3D /* Boxing York Hall.html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95281AEE6E9700A24E3D /* Boxing York Hall.html */; };
+		6C5C952B1AEE6E9700A24E3D /* York Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95291AEE6E9700A24E3D /* York Hall.jpg */; };
+		6C5C95321AEE6EE000A24E3D /* Hanbury Street .html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C952D1AEE6EE000A24E3D /* Hanbury Street .html */; };
+		6C5C95331AEE6EE000A24E3D /* Hanbury Street 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C952E1AEE6EE000A24E3D /* Hanbury Street 1.jpg */; };
+		6C5C95341AEE6EE000A24E3D /* Hanbury Street 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C952F1AEE6EE000A24E3D /* Hanbury Street 2.png */; };
+		6C5C95351AEE6EE000A24E3D /* Hanbury Street 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95301AEE6EE000A24E3D /* Hanbury Street 3.jpg */; };
+		6C5C95361AEE6EE000A24E3D /* Hanbury Street 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95311AEE6EE000A24E3D /* Hanbury Street 4.jpg */; };
+		6C5C953F1AEE6F1100A24E3D /* Israel Zangwill .html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95381AEE6F1100A24E3D /* Israel Zangwill .html */; };
+		6C5C95401AEE6F1100A24E3D /* Israel Zangwill 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95391AEE6F1100A24E3D /* Israel Zangwill 1.jpg */; };
+		6C5C95411AEE6F1100A24E3D /* Israel Zangwill 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C953A1AEE6F1100A24E3D /* Israel Zangwill 2.jpg */; };
+		6C5C95421AEE6F1100A24E3D /* Israel Zangwill 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C953B1AEE6F1100A24E3D /* Israel Zangwill 3.jpg */; };
+		6C5C95431AEE6F1100A24E3D /* Israel Zangwill 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C953C1AEE6F1100A24E3D /* Israel Zangwill 4.jpg */; };
+		6C5C95441AEE6F1100A24E3D /* Israel Zangwill 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C953D1AEE6F1100A24E3D /* Israel Zangwill 5.jpg */; };
+		6C5C95451AEE6F1100A24E3D /* Israel Zangwill 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C953E1AEE6F1100A24E3D /* Israel Zangwill 6.jpg */; };
+		6C5C95481AEE71BE00A24E3D /* Jewish and Jewish Friendly bookshops.html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95471AEE71BE00A24E3D /* Jewish and Jewish Friendly bookshops.html */; };
+		6C5C954B1AEE732100A24E3D /* Jewish Daily Post .html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C954A1AEE732100A24E3D /* Jewish Daily Post .html */; };
+		6C5C954E1AEE737B00A24E3D /* Kings College London .html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C954D1AEE737B00A24E3D /* Kings College London .html */; };
+		6C5C95521AEE73BE00A24E3D /* Lenin 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95501AEE73BE00A24E3D /* Lenin 1.jpg */; };
+		6C5C95531AEE73BE00A24E3D /* Lenin and Bloomsbury.html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95511AEE73BE00A24E3D /* Lenin and Bloomsbury.html */; };
+		6C5C95581AEE73E600A24E3D /* Liberty Bell .html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95551AEE73E600A24E3D /* Liberty Bell .html */; };
+		6C5C95591AEE73E600A24E3D /* Liberty Bell 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95561AEE73E600A24E3D /* Liberty Bell 1.jpg */; };
+		6C5C955A1AEE73E600A24E3D /* Liberty Bell 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95571AEE73E600A24E3D /* Liberty Bell 2.jpg */; };
+		6C5C95661AEE740800A24E3D /* Liverpool Street 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C955C1AEE740800A24E3D /* Liverpool Street 1.jpg */; };
+		6C5C95671AEE740800A24E3D /* Liverpool Street 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C955D1AEE740800A24E3D /* Liverpool Street 2.jpg */; };
+		6C5C95681AEE740800A24E3D /* Liverpool Street 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C955E1AEE740800A24E3D /* Liverpool Street 3.jpg */; };
+		6C5C95691AEE740800A24E3D /* Liverpool Street 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C955F1AEE740800A24E3D /* Liverpool Street 4.jpg */; };
+		6C5C956A1AEE740800A24E3D /* Liverpool Street 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95601AEE740800A24E3D /* Liverpool Street 5.jpg */; };
+		6C5C956B1AEE740800A24E3D /* Liverpool Street 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95611AEE740800A24E3D /* Liverpool Street 6.jpg */; };
+		6C5C956C1AEE740800A24E3D /* Liverpool Street 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95621AEE740800A24E3D /* Liverpool Street 7.jpg */; };
+		6C5C956D1AEE740800A24E3D /* Liverpool Street 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95631AEE740800A24E3D /* Liverpool Street 8.jpg */; };
+		6C5C956E1AEE740800A24E3D /* Liverpool Street 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95641AEE740800A24E3D /* Liverpool Street 9.jpg */; };
+		6C5C956F1AEE740800A24E3D /* Liverpool Street Rail Station.html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95651AEE740800A24E3D /* Liverpool Street Rail Station.html */; };
+		6C5C95731AEE745B00A24E3D /* London School of Economics .html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95711AEE745B00A24E3D /* London School of Economics .html */; };
+		6C5C95741AEE745B00A24E3D /* London School of Economics 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95721AEE745B00A24E3D /* London School of Economics 1.png */; };
+		6C5C957B1AEE749E00A24E3D /* Mark Gertler on Elder Street 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95761AEE749E00A24E3D /* Mark Gertler on Elder Street 2.jpg */; };
+		6C5C957C1AEE749E00A24E3D /* Mark Gertler on Elder Street 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95771AEE749E00A24E3D /* Mark Gertler on Elder Street 3.jpg */; };
+		6C5C957D1AEE749E00A24E3D /* Mark Gertler on Elder Street 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95781AEE749E00A24E3D /* Mark Gertler on Elder Street 4.jpg */; };
+		6C5C957E1AEE749E00A24E3D /* Mark Gertler on Elder Street.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95791AEE749E00A24E3D /* Mark Gertler on Elder Street.jpg */; };
+		6C5C957F1AEE749E00A24E3D /* Marko Gertler on Elder Street.html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C957A1AEE749E00A24E3D /* Marko Gertler on Elder Street.html */; };
+		6C5C95841AEE74C700A24E3D /* Museum Gardens .html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95811AEE74C700A24E3D /* Museum Gardens .html */; };
+		6C5C95851AEE74C700A24E3D /* Museum Gardens 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95821AEE74C700A24E3D /* Museum Gardens 1.jpg */; };
+		6C5C95861AEE74C700A24E3D /* Museum Gardens 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95831AEE74C700A24E3D /* Museum Gardens 2.jpg */; };
+		6C5C958E1AEE74EA00A24E3D /* Museum of Childhood .html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95881AEE74EA00A24E3D /* Museum of Childhood .html */; };
+		6C5C958F1AEE74EA00A24E3D /* Museum of Childhood 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95891AEE74EA00A24E3D /* Museum of Childhood 1.jpg */; };
+		6C5C95901AEE74EA00A24E3D /* Museum of Childhood 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C958A1AEE74EA00A24E3D /* Museum of Childhood 2.jpg */; };
+		6C5C95911AEE74EA00A24E3D /* Museum of Childhood 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C958B1AEE74EA00A24E3D /* Museum of Childhood 3.jpg */; };
+		6C5C95921AEE74EA00A24E3D /* Museum of Childhood 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C958C1AEE74EA00A24E3D /* Museum of Childhood 4.jpg */; };
+		6C5C95931AEE74EA00A24E3D /* Museum of Childhood 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C958D1AEE74EA00A24E3D /* Museum of Childhood 5.jpg */; };
+		6C5C95981AEE751900A24E3D /* Needle Trades Memorial 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95951AEE751900A24E3D /* Needle Trades Memorial 2.jpg */; };
+		6C5C95991AEE751900A24E3D /* Needle Trades Memorial.html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95961AEE751900A24E3D /* Needle Trades Memorial.html */; };
+		6C5C959A1AEE751900A24E3D /* Needle Trades Memorial.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95971AEE751900A24E3D /* Needle Trades Memorial.jpg */; };
+		6C5C959D1AEE756900A24E3D /* Other areas of Jewish Interest.html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C959C1AEE756900A24E3D /* Other areas of Jewish Interest.html */; };
+		6C5C95A11AEE769F00A24E3D /* Peter Sellers 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C959F1AEE769F00A24E3D /* Peter Sellers 1.jpg */; };
+		6C5C95A21AEE769F00A24E3D /* Peter Sellers' House.html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95A01AEE769F00A24E3D /* Peter Sellers' House.html */; };
+		6C5C95A61AEE775A00A24E3D /* Ping Pong and Jewish Culture.html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95A41AEE775A00A24E3D /* Ping Pong and Jewish Culture.html */; };
+		6C5C95A71AEE775A00A24E3D /* Ping Pong.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95A51AEE775A00A24E3D /* Ping Pong.jpg */; };
+		6C5C95AC1AEE77D700A24E3D /* Princelet Street 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95A91AEE77D700A24E3D /* Princelet Street 1.jpg */; };
+		6C5C95AD1AEE77D700A24E3D /* Princelet Street 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95AA1AEE77D700A24E3D /* Princelet Street 2.jpg */; };
+		6C5C95AE1AEE77D700A24E3D /* Princelet Street Synagogue.html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95AB1AEE77D700A24E3D /* Princelet Street Synagogue.html */; };
+		6C5C95B41AEE780700A24E3D /* Rinkoffs 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95B01AEE780700A24E3D /* Rinkoffs 1.jpg */; };
+		6C5C95B51AEE780700A24E3D /* Rinkoffs 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95B11AEE780700A24E3D /* Rinkoffs 2.jpg */; };
+		6C5C95B61AEE780700A24E3D /* Rinkoffs 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95B21AEE780700A24E3D /* Rinkoffs 3.jpg */; };
+		6C5C95B71AEE780700A24E3D /* Rinkoffs Cheesecake .html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95B31AEE780700A24E3D /* Rinkoffs Cheesecake .html */; };
+		6C5C95BD1AEE784E00A24E3D /* Sandy's Row 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95B91AEE784E00A24E3D /* Sandy's Row 1.jpg */; };
+		6C5C95BE1AEE784E00A24E3D /* Sandy's Row 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95BA1AEE784E00A24E3D /* Sandy's Row 2.jpg */; };
+		6C5C95BF1AEE784E00A24E3D /* Sandy's Row 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95BB1AEE784E00A24E3D /* Sandy's Row 3.jpg */; };
+		6C5C95C01AEE784E00A24E3D /* Sandy's Row Synagogue.html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95BC1AEE784E00A24E3D /* Sandy's Row Synagogue.html */; };
+		6C5C95C61AEE78FC00A24E3D /* Soup Kitchen 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95C21AEE78FC00A24E3D /* Soup Kitchen 1.jpg */; };
+		6C5C95C71AEE78FC00A24E3D /* Soup Kitchen 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95C31AEE78FC00A24E3D /* Soup Kitchen 2.jpg */; };
+		6C5C95C81AEE78FC00A24E3D /* Soup Kitchen 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95C41AEE78FC00A24E3D /* Soup Kitchen 3.png */; };
+		6C5C95C91AEE78FC00A24E3D /* Soup Kitchen For the Jewish Poor.html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95C51AEE78FC00A24E3D /* Soup Kitchen For the Jewish Poor.html */; };
+		6C5C95D61AEE796200A24E3D /* Boxing 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95CB1AEE796200A24E3D /* Boxing 1.jpg */; };
+		6C5C95D71AEE796200A24E3D /* Boxing 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95CC1AEE796200A24E3D /* Boxing 2.jpg */; };
+		6C5C95D81AEE796200A24E3D /* Boxing 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95CD1AEE796200A24E3D /* Boxing 2.png */; };
+		6C5C95D91AEE796200A24E3D /* Boxing 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95CE1AEE796200A24E3D /* Boxing 3.jpg */; };
+		6C5C95DA1AEE796200A24E3D /* Boxing 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95CF1AEE796200A24E3D /* Boxing 4.jpg */; };
+		6C5C95DB1AEE796200A24E3D /* Boxing 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95D01AEE796200A24E3D /* Boxing 5.jpg */; };
+		6C5C95DC1AEE796200A24E3D /* Boxing 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95D11AEE796200A24E3D /* Boxing 6.jpg */; };
+		6C5C95DD1AEE796200A24E3D /* Boxing 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95D21AEE796200A24E3D /* Boxing 7.jpg */; };
+		6C5C95DE1AEE796200A24E3D /* Boxing 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95D31AEE796200A24E3D /* Boxing 8.jpg */; };
+		6C5C95DF1AEE796200A24E3D /* Boxing 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95D41AEE796200A24E3D /* Boxing 9.jpg */; };
+		6C5C95E01AEE796200A24E3D /* Sport Boxing.html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95D51AEE796200A24E3D /* Sport Boxing.html */; };
+		6C5C95E51AEE7A0B00A24E3D /* St Johns restaurant 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95E21AEE7A0B00A24E3D /* St Johns restaurant 1.jpg */; };
+		6C5C95E61AEE7A0B00A24E3D /* St Johns restaurant 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95E31AEE7A0B00A24E3D /* St Johns restaurant 2.jpg */; };
+		6C5C95E71AEE7A0B00A24E3D /* St. Johns Restaurant.html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95E41AEE7A0B00A24E3D /* St. Johns Restaurant.html */; };
+		6C5C95EC1AEE7A6C00A24E3D /* Tayyabs 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95E91AEE7A6C00A24E3D /* Tayyabs 1.jpg */; };
+		6C5C95ED1AEE7A6C00A24E3D /* Tayyabs 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95EA1AEE7A6C00A24E3D /* Tayyabs 2.jpg */; };
+		6C5C95EE1AEE7A6C00A24E3D /* Tayyabs Punjabi Restaurant.html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95EB1AEE7A6C00A24E3D /* Tayyabs Punjabi Restaurant.html */; };
+		6C5C95F31AEE7ABF00A24E3D /* The Cut Corner .html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95F01AEE7ABF00A24E3D /* The Cut Corner .html */; };
+		6C5C95F41AEE7ABF00A24E3D /* the Cut Corner 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95F11AEE7ABF00A24E3D /* the Cut Corner 2.jpg */; };
+		6C5C95F51AEE7ABF00A24E3D /* the Cut Corner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95F21AEE7ABF00A24E3D /* the Cut Corner.jpg */; };
+		6C5C95F91AEE7B2600A24E3D /* Mass Politics in 'the Waste'.html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95F71AEE7B2600A24E3D /* Mass Politics in 'the Waste'.html */; };
+		6C5C95FA1AEE7B2600A24E3D /* the waste 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95F81AEE7B2600A24E3D /* the waste 1.jpg */; };
+		6C5C96061AEE7B4800A24E3D /* UCL 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95FC1AEE7B4800A24E3D /* UCL 1.jpg */; };
+		6C5C96071AEE7B4800A24E3D /* UCL 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95FD1AEE7B4800A24E3D /* UCL 2.jpg */; };
+		6C5C96081AEE7B4800A24E3D /* UCL 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95FE1AEE7B4800A24E3D /* UCL 3.jpg */; };
+		6C5C96091AEE7B4800A24E3D /* UCL 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C95FF1AEE7B4800A24E3D /* UCL 4.jpg */; };
+		6C5C960A1AEE7B4800A24E3D /* UCL 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C96001AEE7B4800A24E3D /* UCL 5.jpg */; };
+		6C5C960B1AEE7B4800A24E3D /* UCL 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C96011AEE7B4800A24E3D /* UCL 6.jpg */; };
+		6C5C960C1AEE7B4800A24E3D /* UCL 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C96021AEE7B4800A24E3D /* UCL 7.jpg */; };
+		6C5C960D1AEE7B4800A24E3D /* UCL 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C96031AEE7B4800A24E3D /* UCL 8.jpg */; };
+		6C5C960E1AEE7B4800A24E3D /* UCL 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C96041AEE7B4800A24E3D /* UCL 9.jpg */; };
+		6C5C960F1AEE7B4800A24E3D /* University College London .html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C96051AEE7B4800A24E3D /* University College London .html */; };
+		6C5C96141AEE7B7700A24E3D /* Victoria Park .html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C96111AEE7B7700A24E3D /* Victoria Park .html */; };
+		6C5C96151AEE7B7700A24E3D /* Victoria Park 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C96121AEE7B7700A24E3D /* Victoria Park 1.jpg */; };
+		6C5C96161AEE7B7700A24E3D /* Victoria Park 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C96131AEE7B7700A24E3D /* Victoria Park 2.jpg */; };
+		6C5C961F1AEE7B9E00A24E3D /* Whitechapel 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C96181AEE7B9E00A24E3D /* Whitechapel 2.jpg */; };
+		6C5C96201AEE7B9E00A24E3D /* Whitechapel 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C96191AEE7B9E00A24E3D /* Whitechapel 3.jpg */; };
+		6C5C96211AEE7B9E00A24E3D /* Whitechapel 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C961A1AEE7B9E00A24E3D /* Whitechapel 4.jpg */; };
+		6C5C96221AEE7B9E00A24E3D /* Whitechapel 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C961B1AEE7B9E00A24E3D /* Whitechapel 5.jpg */; };
+		6C5C96231AEE7B9E00A24E3D /* Whitechapel 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C961C1AEE7B9E00A24E3D /* Whitechapel 6.jpg */; };
+		6C5C96241AEE7B9E00A24E3D /* Whitechapel Art Gallery.html in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C961D1AEE7B9E00A24E3D /* Whitechapel Art Gallery.html */; };
+		6C5C96251AEE7B9E00A24E3D /* Whitechapel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5C961E1AEE7B9E00A24E3D /* Whitechapel.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		352531E21AB76D33004747E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 352531C21AB76D33004747E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 352531C91AB76D33004747E6;
+			remoteInfo = JEE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		352531CA1AB76D33004747E6 /* JEE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JEE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		352531CE1AB76D33004747E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		352531CF1AB76D33004747E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		352531D11AB76D33004747E6 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		352531D31AB76D33004747E6 /* AboutUsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsPage.swift; sourceTree = "<group>"; };
+		352531D81AB76D33004747E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		352531DB1AB76D33004747E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		352531E11AB76D33004747E6 /* JEETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JEETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		352531E61AB76D33004747E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		352531E71AB76D33004747E6 /* JEETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JEETests.swift; sourceTree = "<group>"; };
+		352531F11AB776F1004747E6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		352531F51AB786D1004747E6 /* Directory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Directory.swift; sourceTree = "<group>"; };
+		353374B21AE921B9003E0D6B /* Bethnal Green Great Synagogue.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "Bethnal Green Great Synagogue.html"; path = "../Bethnal Green Great Synagogue.html"; sourceTree = "<group>"; };
+		353374B51AE922AD003E0D6B /* Bethnal Green Great Synagogue 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bethnal Green Great Synagogue 2.jpg"; sourceTree = "<group>"; };
+		353374B61AE922AD003E0D6B /* Bethnal Green Great Synagogue 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bethnal Green Great Synagogue 3.jpg"; sourceTree = "<group>"; };
+		353374B71AE922AD003E0D6B /* Bethnal Green Great Synagogue 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bethnal Green Great Synagogue 4.jpg"; sourceTree = "<group>"; };
+		353374B81AE922AD003E0D6B /* Bethnal Green Great Synagogue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bethnal Green Great Synagogue.jpg"; sourceTree = "<group>"; };
+		35729D8B1AE900A10028B09B /* LandMark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandMark.swift; sourceTree = "<group>"; };
+		359F8E111AEFD2520013A758 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
+		35C8CF8F1AB9D4DA008D2027 /* ContentStyle.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ContentStyle.css; sourceTree = SOURCE_ROOT; };
+		35FC5A0B1ABAEE1000A9FDC6 /* LastVisited.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastVisited.swift; sourceTree = "<group>"; };
+		35FC5A131ABB11EB00A9FDC6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6C5C938E1AED45E000A24E3D /* Bevis Marks Synagogue.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Bevis Marks Synagogue.html"; sourceTree = "<group>"; };
+		6C5C938F1AED45E000A24E3D /* Image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image1.jpg; sourceTree = "<group>"; };
+		6C5C93901AED45E000A24E3D /* Image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image2.jpg; sourceTree = "<group>"; };
+		6C5C93911AED45E000A24E3D /* Image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image3.jpg; sourceTree = "<group>"; };
+		6C5C94D91AEE5F1800A24E3D /* Dirty Dicks 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dirty Dicks 1.jpg"; sourceTree = "<group>"; };
+		6C5C94DA1AEE5F1800A24E3D /* Dirty Dicks 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dirty Dicks 2.jpg"; sourceTree = "<group>"; };
+		6C5C94DB1AEE5F1800A24E3D /* Dirty Dicks Pub.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Dirty Dicks Pub.html"; sourceTree = "<group>"; };
+		6C5C94E01AEE612500A24E3D /* Brick Lane .html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Brick Lane .html"; sourceTree = "<group>"; };
+		6C5C94E11AEE612500A24E3D /* Image 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image 1.jpg"; sourceTree = "<group>"; };
+		6C5C94E21AEE612500A24E3D /* Image 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image 2.jpg"; sourceTree = "<group>"; };
+		6C5C94E31AEE612500A24E3D /* Image 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image 3.jpg"; sourceTree = "<group>"; };
+		6C5C94E41AEE612500A24E3D /* Image 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image 4.jpg"; sourceTree = "<group>"; };
+		6C5C94E51AEE612500A24E3D /* Image 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image 5.jpg"; sourceTree = "<group>"; };
+		6C5C94E61AEE612500A24E3D /* Image 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image 6.jpg"; sourceTree = "<group>"; };
+		6C5C94E71AEE612500A24E3D /* Image 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image 7.jpg"; sourceTree = "<group>"; };
+		6C5C94E81AEE612500A24E3D /* Image 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image 8.jpg"; sourceTree = "<group>"; };
+		6C5C94E91AEE612500A24E3D /* Image 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image 9.jpg"; sourceTree = "<group>"; };
+		6C5C94F51AEE664700A24E3D /* Eating Jewish in and Around Bloomsbury.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Eating Jewish in and Around Bloomsbury.html"; sourceTree = "<group>"; };
+		6C5C94F81AEE674300A24E3D /* Entrance Arch .html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Entrance Arch .html"; sourceTree = "<group>"; };
+		6C5C94F91AEE674300A24E3D /* Entrance Arch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Entrance Arch.jpg"; sourceTree = "<group>"; };
+		6C5C95001AEE686E00A24E3D /* aboutus.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = aboutus.html; sourceTree = "<group>"; };
+		6C5C95041AEE6C9D00A24E3D /* Fieldgate Street Synagogue.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Fieldgate Street Synagogue.html"; sourceTree = "<group>"; };
+		6C5C95051AEE6C9D00A24E3D /* Fieldgate Street.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Fieldgate Street.jpg"; sourceTree = "<group>"; };
+		6C5C95091AEE6D4800A24E3D /* Fournier Street .html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Fournier Street .html"; sourceTree = "<group>"; };
+		6C5C950A1AEE6D4800A24E3D /* Fournier Street.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Fournier Street.jpg"; sourceTree = "<group>"; };
+		6C5C950E1AEE6D9D00A24E3D /* Freedom Press .html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Freedom Press .html"; sourceTree = "<group>"; };
+		6C5C950F1AEE6D9D00A24E3D /* Freedom Press 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Freedom Press 1.jpg"; sourceTree = "<group>"; };
+		6C5C95101AEE6D9D00A24E3D /* Freedom Press 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Freedom Press 2.jpg"; sourceTree = "<group>"; };
+		6C5C95111AEE6D9D00A24E3D /* Freedom Press 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Freedom Press 3.png"; sourceTree = "<group>"; };
+		6C5C95121AEE6D9D00A24E3D /* Freedom Press 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Freedom Press 4.png"; sourceTree = "<group>"; };
+		6C5C95131AEE6D9D00A24E3D /* Freedom Press 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Freedom Press 5.jpg"; sourceTree = "<group>"; };
+		6C5C95141AEE6D9D00A24E3D /* Freedom Press 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Freedom Press 6.jpg"; sourceTree = "<group>"; };
+		6C5C95151AEE6D9D00A24E3D /* Freedom Press 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Freedom Press 7.jpg"; sourceTree = "<group>"; };
+		6C5C95161AEE6D9D00A24E3D /* Freedom Press 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Freedom Press 8.jpg"; sourceTree = "<group>"; };
+		6C5C95211AEE6E1B00A24E3D /* Hackney Wick 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hackney Wick 1.jpg"; sourceTree = "<group>"; };
+		6C5C95221AEE6E1B00A24E3D /* Hackney Wick 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hackney Wick 2.jpg"; sourceTree = "<group>"; };
+		6C5C95231AEE6E1B00A24E3D /* Hackney Wick and Walk back to Camden.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Hackney Wick and Walk back to Camden.html"; sourceTree = "<group>"; };
+		6C5C95281AEE6E9700A24E3D /* Boxing York Hall.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Boxing York Hall.html"; sourceTree = "<group>"; };
+		6C5C95291AEE6E9700A24E3D /* York Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "York Hall.jpg"; sourceTree = "<group>"; };
+		6C5C952D1AEE6EE000A24E3D /* Hanbury Street .html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Hanbury Street .html"; sourceTree = "<group>"; };
+		6C5C952E1AEE6EE000A24E3D /* Hanbury Street 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hanbury Street 1.jpg"; sourceTree = "<group>"; };
+		6C5C952F1AEE6EE000A24E3D /* Hanbury Street 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hanbury Street 2.png"; sourceTree = "<group>"; };
+		6C5C95301AEE6EE000A24E3D /* Hanbury Street 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hanbury Street 3.jpg"; sourceTree = "<group>"; };
+		6C5C95311AEE6EE000A24E3D /* Hanbury Street 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hanbury Street 4.jpg"; sourceTree = "<group>"; };
+		6C5C95381AEE6F1100A24E3D /* Israel Zangwill .html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Israel Zangwill .html"; sourceTree = "<group>"; };
+		6C5C95391AEE6F1100A24E3D /* Israel Zangwill 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Israel Zangwill 1.jpg"; sourceTree = "<group>"; };
+		6C5C953A1AEE6F1100A24E3D /* Israel Zangwill 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Israel Zangwill 2.jpg"; sourceTree = "<group>"; };
+		6C5C953B1AEE6F1100A24E3D /* Israel Zangwill 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Israel Zangwill 3.jpg"; sourceTree = "<group>"; };
+		6C5C953C1AEE6F1100A24E3D /* Israel Zangwill 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Israel Zangwill 4.jpg"; sourceTree = "<group>"; };
+		6C5C953D1AEE6F1100A24E3D /* Israel Zangwill 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Israel Zangwill 5.jpg"; sourceTree = "<group>"; };
+		6C5C953E1AEE6F1100A24E3D /* Israel Zangwill 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Israel Zangwill 6.jpg"; sourceTree = "<group>"; };
+		6C5C95471AEE71BE00A24E3D /* Jewish and Jewish Friendly bookshops.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Jewish and Jewish Friendly bookshops.html"; sourceTree = "<group>"; };
+		6C5C954A1AEE732100A24E3D /* Jewish Daily Post .html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Jewish Daily Post .html"; sourceTree = "<group>"; };
+		6C5C954D1AEE737B00A24E3D /* Kings College London .html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Kings College London .html"; sourceTree = "<group>"; };
+		6C5C95501AEE73BE00A24E3D /* Lenin 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lenin 1.jpg"; sourceTree = "<group>"; };
+		6C5C95511AEE73BE00A24E3D /* Lenin and Bloomsbury.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Lenin and Bloomsbury.html"; sourceTree = "<group>"; };
+		6C5C95551AEE73E600A24E3D /* Liberty Bell .html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Liberty Bell .html"; sourceTree = "<group>"; };
+		6C5C95561AEE73E600A24E3D /* Liberty Bell 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Liberty Bell 1.jpg"; sourceTree = "<group>"; };
+		6C5C95571AEE73E600A24E3D /* Liberty Bell 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Liberty Bell 2.jpg"; sourceTree = "<group>"; };
+		6C5C955C1AEE740800A24E3D /* Liverpool Street 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Liverpool Street 1.jpg"; sourceTree = "<group>"; };
+		6C5C955D1AEE740800A24E3D /* Liverpool Street 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Liverpool Street 2.jpg"; sourceTree = "<group>"; };
+		6C5C955E1AEE740800A24E3D /* Liverpool Street 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Liverpool Street 3.jpg"; sourceTree = "<group>"; };
+		6C5C955F1AEE740800A24E3D /* Liverpool Street 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Liverpool Street 4.jpg"; sourceTree = "<group>"; };
+		6C5C95601AEE740800A24E3D /* Liverpool Street 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Liverpool Street 5.jpg"; sourceTree = "<group>"; };
+		6C5C95611AEE740800A24E3D /* Liverpool Street 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Liverpool Street 6.jpg"; sourceTree = "<group>"; };
+		6C5C95621AEE740800A24E3D /* Liverpool Street 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Liverpool Street 7.jpg"; sourceTree = "<group>"; };
+		6C5C95631AEE740800A24E3D /* Liverpool Street 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Liverpool Street 8.jpg"; sourceTree = "<group>"; };
+		6C5C95641AEE740800A24E3D /* Liverpool Street 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Liverpool Street 9.jpg"; sourceTree = "<group>"; };
+		6C5C95651AEE740800A24E3D /* Liverpool Street Rail Station.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Liverpool Street Rail Station.html"; sourceTree = "<group>"; };
+		6C5C95711AEE745B00A24E3D /* London School of Economics .html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "London School of Economics .html"; sourceTree = "<group>"; };
+		6C5C95721AEE745B00A24E3D /* London School of Economics 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "London School of Economics 1.png"; sourceTree = "<group>"; };
+		6C5C95761AEE749E00A24E3D /* Mark Gertler on Elder Street 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mark Gertler on Elder Street 2.jpg"; sourceTree = "<group>"; };
+		6C5C95771AEE749E00A24E3D /* Mark Gertler on Elder Street 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mark Gertler on Elder Street 3.jpg"; sourceTree = "<group>"; };
+		6C5C95781AEE749E00A24E3D /* Mark Gertler on Elder Street 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mark Gertler on Elder Street 4.jpg"; sourceTree = "<group>"; };
+		6C5C95791AEE749E00A24E3D /* Mark Gertler on Elder Street.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mark Gertler on Elder Street.jpg"; sourceTree = "<group>"; };
+		6C5C957A1AEE749E00A24E3D /* Marko Gertler on Elder Street.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Marko Gertler on Elder Street.html"; sourceTree = "<group>"; };
+		6C5C95811AEE74C700A24E3D /* Museum Gardens .html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Museum Gardens .html"; sourceTree = "<group>"; };
+		6C5C95821AEE74C700A24E3D /* Museum Gardens 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Museum Gardens 1.jpg"; sourceTree = "<group>"; };
+		6C5C95831AEE74C700A24E3D /* Museum Gardens 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Museum Gardens 2.jpg"; sourceTree = "<group>"; };
+		6C5C95881AEE74EA00A24E3D /* Museum of Childhood .html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Museum of Childhood .html"; sourceTree = "<group>"; };
+		6C5C95891AEE74EA00A24E3D /* Museum of Childhood 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Museum of Childhood 1.jpg"; sourceTree = "<group>"; };
+		6C5C958A1AEE74EA00A24E3D /* Museum of Childhood 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Museum of Childhood 2.jpg"; sourceTree = "<group>"; };
+		6C5C958B1AEE74EA00A24E3D /* Museum of Childhood 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Museum of Childhood 3.jpg"; sourceTree = "<group>"; };
+		6C5C958C1AEE74EA00A24E3D /* Museum of Childhood 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Museum of Childhood 4.jpg"; sourceTree = "<group>"; };
+		6C5C958D1AEE74EA00A24E3D /* Museum of Childhood 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Museum of Childhood 5.jpg"; sourceTree = "<group>"; };
+		6C5C95951AEE751900A24E3D /* Needle Trades Memorial 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Needle Trades Memorial 2.jpg"; sourceTree = "<group>"; };
+		6C5C95961AEE751900A24E3D /* Needle Trades Memorial.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Needle Trades Memorial.html"; sourceTree = "<group>"; };
+		6C5C95971AEE751900A24E3D /* Needle Trades Memorial.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Needle Trades Memorial.jpg"; sourceTree = "<group>"; };
+		6C5C959C1AEE756900A24E3D /* Other areas of Jewish Interest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Other areas of Jewish Interest.html"; sourceTree = "<group>"; };
+		6C5C959F1AEE769F00A24E3D /* Peter Sellers 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Peter Sellers 1.jpg"; sourceTree = "<group>"; };
+		6C5C95A01AEE769F00A24E3D /* Peter Sellers' House.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Peter Sellers' House.html"; sourceTree = "<group>"; };
+		6C5C95A41AEE775A00A24E3D /* Ping Pong and Jewish Culture.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Ping Pong and Jewish Culture.html"; sourceTree = "<group>"; };
+		6C5C95A51AEE775A00A24E3D /* Ping Pong.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ping Pong.jpg"; sourceTree = "<group>"; };
+		6C5C95A91AEE77D700A24E3D /* Princelet Street 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Princelet Street 1.jpg"; sourceTree = "<group>"; };
+		6C5C95AA1AEE77D700A24E3D /* Princelet Street 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Princelet Street 2.jpg"; sourceTree = "<group>"; };
+		6C5C95AB1AEE77D700A24E3D /* Princelet Street Synagogue.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Princelet Street Synagogue.html"; sourceTree = "<group>"; };
+		6C5C95B01AEE780700A24E3D /* Rinkoffs 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rinkoffs 1.jpg"; sourceTree = "<group>"; };
+		6C5C95B11AEE780700A24E3D /* Rinkoffs 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rinkoffs 2.jpg"; sourceTree = "<group>"; };
+		6C5C95B21AEE780700A24E3D /* Rinkoffs 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rinkoffs 3.jpg"; sourceTree = "<group>"; };
+		6C5C95B31AEE780700A24E3D /* Rinkoffs Cheesecake .html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Rinkoffs Cheesecake .html"; sourceTree = "<group>"; };
+		6C5C95B91AEE784E00A24E3D /* Sandy's Row 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sandy's Row 1.jpg"; sourceTree = "<group>"; };
+		6C5C95BA1AEE784E00A24E3D /* Sandy's Row 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sandy's Row 2.jpg"; sourceTree = "<group>"; };
+		6C5C95BB1AEE784E00A24E3D /* Sandy's Row 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sandy's Row 3.jpg"; sourceTree = "<group>"; };
+		6C5C95BC1AEE784E00A24E3D /* Sandy's Row Synagogue.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Sandy's Row Synagogue.html"; sourceTree = "<group>"; };
+		6C5C95C21AEE78FC00A24E3D /* Soup Kitchen 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Soup Kitchen 1.jpg"; sourceTree = "<group>"; };
+		6C5C95C31AEE78FC00A24E3D /* Soup Kitchen 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Soup Kitchen 2.jpg"; sourceTree = "<group>"; };
+		6C5C95C41AEE78FC00A24E3D /* Soup Kitchen 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Soup Kitchen 3.png"; sourceTree = "<group>"; };
+		6C5C95C51AEE78FC00A24E3D /* Soup Kitchen For the Jewish Poor.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Soup Kitchen For the Jewish Poor.html"; sourceTree = "<group>"; };
+		6C5C95CB1AEE796200A24E3D /* Boxing 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Boxing 1.jpg"; sourceTree = "<group>"; };
+		6C5C95CC1AEE796200A24E3D /* Boxing 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Boxing 2.jpg"; sourceTree = "<group>"; };
+		6C5C95CD1AEE796200A24E3D /* Boxing 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Boxing 2.png"; sourceTree = "<group>"; };
+		6C5C95CE1AEE796200A24E3D /* Boxing 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Boxing 3.jpg"; sourceTree = "<group>"; };
+		6C5C95CF1AEE796200A24E3D /* Boxing 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Boxing 4.jpg"; sourceTree = "<group>"; };
+		6C5C95D01AEE796200A24E3D /* Boxing 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Boxing 5.jpg"; sourceTree = "<group>"; };
+		6C5C95D11AEE796200A24E3D /* Boxing 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Boxing 6.jpg"; sourceTree = "<group>"; };
+		6C5C95D21AEE796200A24E3D /* Boxing 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Boxing 7.jpg"; sourceTree = "<group>"; };
+		6C5C95D31AEE796200A24E3D /* Boxing 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Boxing 8.jpg"; sourceTree = "<group>"; };
+		6C5C95D41AEE796200A24E3D /* Boxing 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Boxing 9.jpg"; sourceTree = "<group>"; };
+		6C5C95D51AEE796200A24E3D /* Sport Boxing.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Sport Boxing.html"; sourceTree = "<group>"; };
+		6C5C95E21AEE7A0B00A24E3D /* St Johns restaurant 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "St Johns restaurant 1.jpg"; sourceTree = "<group>"; };
+		6C5C95E31AEE7A0B00A24E3D /* St Johns restaurant 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "St Johns restaurant 2.jpg"; sourceTree = "<group>"; };
+		6C5C95E41AEE7A0B00A24E3D /* St. Johns Restaurant.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "St. Johns Restaurant.html"; sourceTree = "<group>"; };
+		6C5C95E91AEE7A6C00A24E3D /* Tayyabs 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tayyabs 1.jpg"; sourceTree = "<group>"; };
+		6C5C95EA1AEE7A6C00A24E3D /* Tayyabs 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tayyabs 2.jpg"; sourceTree = "<group>"; };
+		6C5C95EB1AEE7A6C00A24E3D /* Tayyabs Punjabi Restaurant.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Tayyabs Punjabi Restaurant.html"; sourceTree = "<group>"; };
+		6C5C95F01AEE7ABF00A24E3D /* The Cut Corner .html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "The Cut Corner .html"; sourceTree = "<group>"; };
+		6C5C95F11AEE7ABF00A24E3D /* the Cut Corner 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the Cut Corner 2.jpg"; sourceTree = "<group>"; };
+		6C5C95F21AEE7ABF00A24E3D /* the Cut Corner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the Cut Corner.jpg"; sourceTree = "<group>"; };
+		6C5C95F71AEE7B2600A24E3D /* Mass Politics in 'the Waste'.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Mass Politics in 'the Waste'.html"; sourceTree = "<group>"; };
+		6C5C95F81AEE7B2600A24E3D /* the waste 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the waste 1.jpg"; sourceTree = "<group>"; };
+		6C5C95FC1AEE7B4800A24E3D /* UCL 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "UCL 1.jpg"; sourceTree = "<group>"; };
+		6C5C95FD1AEE7B4800A24E3D /* UCL 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "UCL 2.jpg"; sourceTree = "<group>"; };
+		6C5C95FE1AEE7B4800A24E3D /* UCL 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "UCL 3.jpg"; sourceTree = "<group>"; };
+		6C5C95FF1AEE7B4800A24E3D /* UCL 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "UCL 4.jpg"; sourceTree = "<group>"; };
+		6C5C96001AEE7B4800A24E3D /* UCL 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "UCL 5.jpg"; sourceTree = "<group>"; };
+		6C5C96011AEE7B4800A24E3D /* UCL 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "UCL 6.jpg"; sourceTree = "<group>"; };
+		6C5C96021AEE7B4800A24E3D /* UCL 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "UCL 7.jpg"; sourceTree = "<group>"; };
+		6C5C96031AEE7B4800A24E3D /* UCL 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "UCL 8.jpg"; sourceTree = "<group>"; };
+		6C5C96041AEE7B4800A24E3D /* UCL 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "UCL 9.jpg"; sourceTree = "<group>"; };
+		6C5C96051AEE7B4800A24E3D /* University College London .html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "University College London .html"; sourceTree = "<group>"; };
+		6C5C96111AEE7B7700A24E3D /* Victoria Park .html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Victoria Park .html"; sourceTree = "<group>"; };
+		6C5C96121AEE7B7700A24E3D /* Victoria Park 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Victoria Park 1.jpg"; sourceTree = "<group>"; };
+		6C5C96131AEE7B7700A24E3D /* Victoria Park 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Victoria Park 2.jpg"; sourceTree = "<group>"; };
+		6C5C96181AEE7B9E00A24E3D /* Whitechapel 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Whitechapel 2.jpg"; sourceTree = "<group>"; };
+		6C5C96191AEE7B9E00A24E3D /* Whitechapel 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Whitechapel 3.jpg"; sourceTree = "<group>"; };
+		6C5C961A1AEE7B9E00A24E3D /* Whitechapel 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Whitechapel 4.jpg"; sourceTree = "<group>"; };
+		6C5C961B1AEE7B9E00A24E3D /* Whitechapel 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Whitechapel 5.jpg"; sourceTree = "<group>"; };
+		6C5C961C1AEE7B9E00A24E3D /* Whitechapel 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Whitechapel 6.jpg"; sourceTree = "<group>"; };
+		6C5C961D1AEE7B9E00A24E3D /* Whitechapel Art Gallery.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Whitechapel Art Gallery.html"; sourceTree = "<group>"; };
+		6C5C961E1AEE7B9E00A24E3D /* Whitechapel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Whitechapel.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		352531C71AB76D33004747E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				352531F21AB776F1004747E6 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		352531DE1AB76D33004747E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		352531C11AB76D33004747E6 = {
+			isa = PBXGroup;
+			children = (
+				352531F11AB776F1004747E6 /* MapKit.framework */,
+				352531CC1AB76D33004747E6 /* JEE */,
+				352531E41AB76D33004747E6 /* JEETests */,
+				352531CB1AB76D33004747E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		352531CB1AB76D33004747E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				352531CA1AB76D33004747E6 /* JEE.app */,
+				352531E11AB76D33004747E6 /* JEETests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		352531CC1AB76D33004747E6 /* JEE */ = {
+			isa = PBXGroup;
+			children = (
+				352531CF1AB76D33004747E6 /* AppDelegate.swift */,
+				352531D11AB76D33004747E6 /* Map.swift */,
+				35729D8B1AE900A10028B09B /* LandMark.swift */,
+				352531F51AB786D1004747E6 /* Directory.swift */,
+				35FC5A0B1ABAEE1000A9FDC6 /* LastVisited.swift */,
+				352531D31AB76D33004747E6 /* AboutUsPage.swift */,
+				35FC5A131ABB11EB00A9FDC6 /* Main.storyboard */,
+				35C8CF8F1AB9D4DA008D2027 /* ContentStyle.css */,
+				6C5C95021AEE68D000A24E3D /* HTML Content */,
+				352531D81AB76D33004747E6 /* Images.xcassets */,
+				352531DA1AB76D33004747E6 /* LaunchScreen.xib */,
+				359F8E111AEFD2520013A758 /* AppIcon.png */,
+				352531CD1AB76D33004747E6 /* Supporting Files */,
+			);
+			path = JEE;
+			sourceTree = "<group>";
+		};
+		352531CD1AB76D33004747E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				352531CE1AB76D33004747E6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		352531E41AB76D33004747E6 /* JEETests */ = {
+			isa = PBXGroup;
+			children = (
+				352531E71AB76D33004747E6 /* JEETests.swift */,
+				352531E51AB76D33004747E6 /* Supporting Files */,
+			);
+			path = JEETests;
+			sourceTree = "<group>";
+		};
+		352531E51AB76D33004747E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				352531E61AB76D33004747E6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		353374B41AE922AD003E0D6B /* Bethnal Green Great Synagogue */ = {
+			isa = PBXGroup;
+			children = (
+				353374B21AE921B9003E0D6B /* Bethnal Green Great Synagogue.html */,
+				353374B51AE922AD003E0D6B /* Bethnal Green Great Synagogue 2.jpg */,
+				353374B61AE922AD003E0D6B /* Bethnal Green Great Synagogue 3.jpg */,
+				353374B71AE922AD003E0D6B /* Bethnal Green Great Synagogue 4.jpg */,
+				353374B81AE922AD003E0D6B /* Bethnal Green Great Synagogue.jpg */,
+			);
+			name = "Bethnal Green Great Synagogue";
+			path = "../JEE/Bethnal Green Great Synagogue Images";
+			sourceTree = "<group>";
+		};
+		6C5C938D1AED45E000A24E3D /* Bevis Marks Synagogue */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C938E1AED45E000A24E3D /* Bevis Marks Synagogue.html */,
+				6C5C938F1AED45E000A24E3D /* Image1.jpg */,
+				6C5C93901AED45E000A24E3D /* Image2.jpg */,
+				6C5C93911AED45E000A24E3D /* Image3.jpg */,
+			);
+			path = "Bevis Marks Synagogue";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C94D81AEE5F1800A24E3D /* Dirty Dicks */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C94D91AEE5F1800A24E3D /* Dirty Dicks 1.jpg */,
+				6C5C94DA1AEE5F1800A24E3D /* Dirty Dicks 2.jpg */,
+				6C5C94DB1AEE5F1800A24E3D /* Dirty Dicks Pub.html */,
+			);
+			path = "Dirty Dicks";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C94DF1AEE612500A24E3D /* Brick Lane */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C94E01AEE612500A24E3D /* Brick Lane .html */,
+				6C5C94E11AEE612500A24E3D /* Image 1.jpg */,
+				6C5C94E21AEE612500A24E3D /* Image 2.jpg */,
+				6C5C94E31AEE612500A24E3D /* Image 3.jpg */,
+				6C5C94E41AEE612500A24E3D /* Image 4.jpg */,
+				6C5C94E51AEE612500A24E3D /* Image 5.jpg */,
+				6C5C94E61AEE612500A24E3D /* Image 6.jpg */,
+				6C5C94E71AEE612500A24E3D /* Image 7.jpg */,
+				6C5C94E81AEE612500A24E3D /* Image 8.jpg */,
+				6C5C94E91AEE612500A24E3D /* Image 9.jpg */,
+			);
+			path = "Brick Lane";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C94F41AEE664700A24E3D /* Eating Jewish in and Around Bloomsbury */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C94F51AEE664700A24E3D /* Eating Jewish in and Around Bloomsbury.html */,
+			);
+			path = "Eating Jewish in and Around Bloomsbury";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C94F71AEE674300A24E3D /* Entrance Arch */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C94F81AEE674300A24E3D /* Entrance Arch .html */,
+				6C5C94F91AEE674300A24E3D /* Entrance Arch.jpg */,
+			);
+			path = "Entrance Arch";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C94FF1AEE686E00A24E3D /* About Us */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C95001AEE686E00A24E3D /* aboutus.html */,
+			);
+			path = "About Us";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C95021AEE68D000A24E3D /* HTML Content */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C96171AEE7B9E00A24E3D /* Whitechapel Art Gallery */,
+				6C5C96101AEE7B7700A24E3D /* Victoria Park */,
+				6C5C95FB1AEE7B4800A24E3D /* UCL */,
+				6C5C95F61AEE7B2600A24E3D /* the Waste */,
+				6C5C95EF1AEE7ABF00A24E3D /* The Cut Corner */,
+				6C5C95E81AEE7A6C00A24E3D /* Tayyabs Punjabi Restaurant */,
+				6C5C95E11AEE7A0B00A24E3D /* St. Johns Restaurant */,
+				6C5C95CA1AEE796200A24E3D /* Sport Boxing */,
+				6C5C95C11AEE78FC00A24E3D /* Soup Kitchen */,
+				6C5C95B81AEE784E00A24E3D /* Sandys Row Synagogue */,
+				6C5C95AF1AEE780700A24E3D /* Rinkoffs Cheesecake */,
+				6C5C95A81AEE77D700A24E3D /* Princelet Street Synagogue */,
+				6C5C95A31AEE775A00A24E3D /* Ping Pong */,
+				6C5C959E1AEE769F00A24E3D /* Peter Sellers' House */,
+				6C5C959B1AEE756900A24E3D /* Other areas of Jewish Interest */,
+				6C5C95941AEE751900A24E3D /* Needle Trades Memorial */,
+				6C5C95871AEE74EA00A24E3D /* Museum of Childhood */,
+				6C5C95801AEE74C700A24E3D /* Museum Gardens */,
+				6C5C95751AEE749E00A24E3D /* Mark Gertler on Elder Street */,
+				6C5C95701AEE745B00A24E3D /* LSE */,
+				6C5C955B1AEE740800A24E3D /* Liverpool Street Station */,
+				6C5C95541AEE73E600A24E3D /* Liberty Bell */,
+				6C5C954F1AEE73BE00A24E3D /* Lenin and Bloomsbury */,
+				6C5C954C1AEE737B00A24E3D /* Kings College London */,
+				6C5C95491AEE732100A24E3D /* Jewish Daily Post */,
+				6C5C95461AEE71BE00A24E3D /* Jewish Bookshops */,
+				6C5C95371AEE6F1100A24E3D /* Israel Zangwill */,
+				6C5C952C1AEE6EE000A24E3D /* Hanbury Street */,
+				6C5C95271AEE6E9700A24E3D /* York Hall */,
+				6C5C95201AEE6E1B00A24E3D /* Hackney Wick and Walk Back to Camden */,
+				6C5C950D1AEE6D9D00A24E3D /* Freedom Press */,
+				6C5C95081AEE6D4800A24E3D /* Fournier Street */,
+				6C5C95031AEE6C9D00A24E3D /* Fieldgate Street Synagogue */,
+				6C5C94FF1AEE686E00A24E3D /* About Us */,
+				6C5C94F71AEE674300A24E3D /* Entrance Arch */,
+				6C5C94F41AEE664700A24E3D /* Eating Jewish in and Around Bloomsbury */,
+				6C5C94DF1AEE612500A24E3D /* Brick Lane */,
+				6C5C94D81AEE5F1800A24E3D /* Dirty Dicks */,
+				6C5C938D1AED45E000A24E3D /* Bevis Marks Synagogue */,
+				353374B41AE922AD003E0D6B /* Bethnal Green Great Synagogue */,
+			);
+			path = "HTML Content";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C95031AEE6C9D00A24E3D /* Fieldgate Street Synagogue */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C95041AEE6C9D00A24E3D /* Fieldgate Street Synagogue.html */,
+				6C5C95051AEE6C9D00A24E3D /* Fieldgate Street.jpg */,
+			);
+			path = "Fieldgate Street Synagogue";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C95081AEE6D4800A24E3D /* Fournier Street */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C95091AEE6D4800A24E3D /* Fournier Street .html */,
+				6C5C950A1AEE6D4800A24E3D /* Fournier Street.jpg */,
+			);
+			path = "Fournier Street";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C950D1AEE6D9D00A24E3D /* Freedom Press */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C950E1AEE6D9D00A24E3D /* Freedom Press .html */,
+				6C5C950F1AEE6D9D00A24E3D /* Freedom Press 1.jpg */,
+				6C5C95101AEE6D9D00A24E3D /* Freedom Press 2.jpg */,
+				6C5C95111AEE6D9D00A24E3D /* Freedom Press 3.png */,
+				6C5C95121AEE6D9D00A24E3D /* Freedom Press 4.png */,
+				6C5C95131AEE6D9D00A24E3D /* Freedom Press 5.jpg */,
+				6C5C95141AEE6D9D00A24E3D /* Freedom Press 6.jpg */,
+				6C5C95151AEE6D9D00A24E3D /* Freedom Press 7.jpg */,
+				6C5C95161AEE6D9D00A24E3D /* Freedom Press 8.jpg */,
+			);
+			path = "Freedom Press";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C95201AEE6E1B00A24E3D /* Hackney Wick and Walk Back to Camden */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C95211AEE6E1B00A24E3D /* Hackney Wick 1.jpg */,
+				6C5C95221AEE6E1B00A24E3D /* Hackney Wick 2.jpg */,
+				6C5C95231AEE6E1B00A24E3D /* Hackney Wick and Walk back to Camden.html */,
+			);
+			path = "Hackney Wick and Walk Back to Camden";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C95271AEE6E9700A24E3D /* York Hall */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C95281AEE6E9700A24E3D /* Boxing York Hall.html */,
+				6C5C95291AEE6E9700A24E3D /* York Hall.jpg */,
+			);
+			path = "York Hall";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C952C1AEE6EE000A24E3D /* Hanbury Street */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C952D1AEE6EE000A24E3D /* Hanbury Street .html */,
+				6C5C952E1AEE6EE000A24E3D /* Hanbury Street 1.jpg */,
+				6C5C952F1AEE6EE000A24E3D /* Hanbury Street 2.png */,
+				6C5C95301AEE6EE000A24E3D /* Hanbury Street 3.jpg */,
+				6C5C95311AEE6EE000A24E3D /* Hanbury Street 4.jpg */,
+			);
+			path = "Hanbury Street";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C95371AEE6F1100A24E3D /* Israel Zangwill */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C95381AEE6F1100A24E3D /* Israel Zangwill .html */,
+				6C5C95391AEE6F1100A24E3D /* Israel Zangwill 1.jpg */,
+				6C5C953A1AEE6F1100A24E3D /* Israel Zangwill 2.jpg */,
+				6C5C953B1AEE6F1100A24E3D /* Israel Zangwill 3.jpg */,
+				6C5C953C1AEE6F1100A24E3D /* Israel Zangwill 4.jpg */,
+				6C5C953D1AEE6F1100A24E3D /* Israel Zangwill 5.jpg */,
+				6C5C953E1AEE6F1100A24E3D /* Israel Zangwill 6.jpg */,
+			);
+			path = "Israel Zangwill";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C95461AEE71BE00A24E3D /* Jewish Bookshops */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C95471AEE71BE00A24E3D /* Jewish and Jewish Friendly bookshops.html */,
+			);
+			path = "Jewish Bookshops";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C95491AEE732100A24E3D /* Jewish Daily Post */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C954A1AEE732100A24E3D /* Jewish Daily Post .html */,
+			);
+			path = "Jewish Daily Post";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C954C1AEE737B00A24E3D /* Kings College London */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C954D1AEE737B00A24E3D /* Kings College London .html */,
+			);
+			path = "Kings College London";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C954F1AEE73BE00A24E3D /* Lenin and Bloomsbury */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C95501AEE73BE00A24E3D /* Lenin 1.jpg */,
+				6C5C95511AEE73BE00A24E3D /* Lenin and Bloomsbury.html */,
+			);
+			path = "Lenin and Bloomsbury";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C95541AEE73E600A24E3D /* Liberty Bell */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C95551AEE73E600A24E3D /* Liberty Bell .html */,
+				6C5C95561AEE73E600A24E3D /* Liberty Bell 1.jpg */,
+				6C5C95571AEE73E600A24E3D /* Liberty Bell 2.jpg */,
+			);
+			path = "Liberty Bell";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C955B1AEE740800A24E3D /* Liverpool Street Station */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C955C1AEE740800A24E3D /* Liverpool Street 1.jpg */,
+				6C5C955D1AEE740800A24E3D /* Liverpool Street 2.jpg */,
+				6C5C955E1AEE740800A24E3D /* Liverpool Street 3.jpg */,
+				6C5C955F1AEE740800A24E3D /* Liverpool Street 4.jpg */,
+				6C5C95601AEE740800A24E3D /* Liverpool Street 5.jpg */,
+				6C5C95611AEE740800A24E3D /* Liverpool Street 6.jpg */,
+				6C5C95621AEE740800A24E3D /* Liverpool Street 7.jpg */,
+				6C5C95631AEE740800A24E3D /* Liverpool Street 8.jpg */,
+				6C5C95641AEE740800A24E3D /* Liverpool Street 9.jpg */,
+				6C5C95651AEE740800A24E3D /* Liverpool Street Rail Station.html */,
+			);
+			path = "Liverpool Street Station";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C95701AEE745B00A24E3D /* LSE */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C95711AEE745B00A24E3D /* London School of Economics .html */,
+				6C5C95721AEE745B00A24E3D /* London School of Economics 1.png */,
+			);
+			path = LSE;
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C95751AEE749E00A24E3D /* Mark Gertler on Elder Street */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C95761AEE749E00A24E3D /* Mark Gertler on Elder Street 2.jpg */,
+				6C5C95771AEE749E00A24E3D /* Mark Gertler on Elder Street 3.jpg */,
+				6C5C95781AEE749E00A24E3D /* Mark Gertler on Elder Street 4.jpg */,
+				6C5C95791AEE749E00A24E3D /* Mark Gertler on Elder Street.jpg */,
+				6C5C957A1AEE749E00A24E3D /* Marko Gertler on Elder Street.html */,
+			);
+			path = "Mark Gertler on Elder Street";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C95801AEE74C700A24E3D /* Museum Gardens */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C95811AEE74C700A24E3D /* Museum Gardens .html */,
+				6C5C95821AEE74C700A24E3D /* Museum Gardens 1.jpg */,
+				6C5C95831AEE74C700A24E3D /* Museum Gardens 2.jpg */,
+			);
+			path = "Museum Gardens";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C95871AEE74EA00A24E3D /* Museum of Childhood */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C95881AEE74EA00A24E3D /* Museum of Childhood .html */,
+				6C5C95891AEE74EA00A24E3D /* Museum of Childhood 1.jpg */,
+				6C5C958A1AEE74EA00A24E3D /* Museum of Childhood 2.jpg */,
+				6C5C958B1AEE74EA00A24E3D /* Museum of Childhood 3.jpg */,
+				6C5C958C1AEE74EA00A24E3D /* Museum of Childhood 4.jpg */,
+				6C5C958D1AEE74EA00A24E3D /* Museum of Childhood 5.jpg */,
+			);
+			path = "Museum of Childhood";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C95941AEE751900A24E3D /* Needle Trades Memorial */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C95951AEE751900A24E3D /* Needle Trades Memorial 2.jpg */,
+				6C5C95961AEE751900A24E3D /* Needle Trades Memorial.html */,
+				6C5C95971AEE751900A24E3D /* Needle Trades Memorial.jpg */,
+			);
+			path = "Needle Trades Memorial";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C959B1AEE756900A24E3D /* Other areas of Jewish Interest */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C959C1AEE756900A24E3D /* Other areas of Jewish Interest.html */,
+			);
+			path = "Other areas of Jewish Interest";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C959E1AEE769F00A24E3D /* Peter Sellers' House */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C959F1AEE769F00A24E3D /* Peter Sellers 1.jpg */,
+				6C5C95A01AEE769F00A24E3D /* Peter Sellers' House.html */,
+			);
+			path = "Peter Sellers' House";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C95A31AEE775A00A24E3D /* Ping Pong */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C95A41AEE775A00A24E3D /* Ping Pong and Jewish Culture.html */,
+				6C5C95A51AEE775A00A24E3D /* Ping Pong.jpg */,
+			);
+			path = "Ping Pong";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C95A81AEE77D700A24E3D /* Princelet Street Synagogue */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C95A91AEE77D700A24E3D /* Princelet Street 1.jpg */,
+				6C5C95AA1AEE77D700A24E3D /* Princelet Street 2.jpg */,
+				6C5C95AB1AEE77D700A24E3D /* Princelet Street Synagogue.html */,
+			);
+			path = "Princelet Street Synagogue";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C95AF1AEE780700A24E3D /* Rinkoffs Cheesecake */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C95B01AEE780700A24E3D /* Rinkoffs 1.jpg */,
+				6C5C95B11AEE780700A24E3D /* Rinkoffs 2.jpg */,
+				6C5C95B21AEE780700A24E3D /* Rinkoffs 3.jpg */,
+				6C5C95B31AEE780700A24E3D /* Rinkoffs Cheesecake .html */,
+			);
+			path = "Rinkoffs Cheesecake";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C95B81AEE784E00A24E3D /* Sandys Row Synagogue */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C95B91AEE784E00A24E3D /* Sandy's Row 1.jpg */,
+				6C5C95BA1AEE784E00A24E3D /* Sandy's Row 2.jpg */,
+				6C5C95BB1AEE784E00A24E3D /* Sandy's Row 3.jpg */,
+				6C5C95BC1AEE784E00A24E3D /* Sandy's Row Synagogue.html */,
+			);
+			path = "Sandys Row Synagogue";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C95C11AEE78FC00A24E3D /* Soup Kitchen */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C95C21AEE78FC00A24E3D /* Soup Kitchen 1.jpg */,
+				6C5C95C31AEE78FC00A24E3D /* Soup Kitchen 2.jpg */,
+				6C5C95C41AEE78FC00A24E3D /* Soup Kitchen 3.png */,
+				6C5C95C51AEE78FC00A24E3D /* Soup Kitchen For the Jewish Poor.html */,
+			);
+			path = "Soup Kitchen";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C95CA1AEE796200A24E3D /* Sport Boxing */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C95CB1AEE796200A24E3D /* Boxing 1.jpg */,
+				6C5C95CC1AEE796200A24E3D /* Boxing 2.jpg */,
+				6C5C95CD1AEE796200A24E3D /* Boxing 2.png */,
+				6C5C95CE1AEE796200A24E3D /* Boxing 3.jpg */,
+				6C5C95CF1AEE796200A24E3D /* Boxing 4.jpg */,
+				6C5C95D01AEE796200A24E3D /* Boxing 5.jpg */,
+				6C5C95D11AEE796200A24E3D /* Boxing 6.jpg */,
+				6C5C95D21AEE796200A24E3D /* Boxing 7.jpg */,
+				6C5C95D31AEE796200A24E3D /* Boxing 8.jpg */,
+				6C5C95D41AEE796200A24E3D /* Boxing 9.jpg */,
+				6C5C95D51AEE796200A24E3D /* Sport Boxing.html */,
+			);
+			path = "Sport Boxing";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C95E11AEE7A0B00A24E3D /* St. Johns Restaurant */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C95E21AEE7A0B00A24E3D /* St Johns restaurant 1.jpg */,
+				6C5C95E31AEE7A0B00A24E3D /* St Johns restaurant 2.jpg */,
+				6C5C95E41AEE7A0B00A24E3D /* St. Johns Restaurant.html */,
+			);
+			path = "St. Johns Restaurant";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C95E81AEE7A6C00A24E3D /* Tayyabs Punjabi Restaurant */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C95E91AEE7A6C00A24E3D /* Tayyabs 1.jpg */,
+				6C5C95EA1AEE7A6C00A24E3D /* Tayyabs 2.jpg */,
+				6C5C95EB1AEE7A6C00A24E3D /* Tayyabs Punjabi Restaurant.html */,
+			);
+			path = "Tayyabs Punjabi Restaurant";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C95EF1AEE7ABF00A24E3D /* The Cut Corner */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C95F01AEE7ABF00A24E3D /* The Cut Corner .html */,
+				6C5C95F11AEE7ABF00A24E3D /* the Cut Corner 2.jpg */,
+				6C5C95F21AEE7ABF00A24E3D /* the Cut Corner.jpg */,
+			);
+			path = "The Cut Corner";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C95F61AEE7B2600A24E3D /* the Waste */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C95F71AEE7B2600A24E3D /* Mass Politics in 'the Waste'.html */,
+				6C5C95F81AEE7B2600A24E3D /* the waste 1.jpg */,
+			);
+			path = "the Waste";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C95FB1AEE7B4800A24E3D /* UCL */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C95FC1AEE7B4800A24E3D /* UCL 1.jpg */,
+				6C5C95FD1AEE7B4800A24E3D /* UCL 2.jpg */,
+				6C5C95FE1AEE7B4800A24E3D /* UCL 3.jpg */,
+				6C5C95FF1AEE7B4800A24E3D /* UCL 4.jpg */,
+				6C5C96001AEE7B4800A24E3D /* UCL 5.jpg */,
+				6C5C96011AEE7B4800A24E3D /* UCL 6.jpg */,
+				6C5C96021AEE7B4800A24E3D /* UCL 7.jpg */,
+				6C5C96031AEE7B4800A24E3D /* UCL 8.jpg */,
+				6C5C96041AEE7B4800A24E3D /* UCL 9.jpg */,
+				6C5C96051AEE7B4800A24E3D /* University College London .html */,
+			);
+			path = UCL;
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C96101AEE7B7700A24E3D /* Victoria Park */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C96111AEE7B7700A24E3D /* Victoria Park .html */,
+				6C5C96121AEE7B7700A24E3D /* Victoria Park 1.jpg */,
+				6C5C96131AEE7B7700A24E3D /* Victoria Park 2.jpg */,
+			);
+			path = "Victoria Park";
+			sourceTree = SOURCE_ROOT;
+		};
+		6C5C96171AEE7B9E00A24E3D /* Whitechapel Art Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C96181AEE7B9E00A24E3D /* Whitechapel 2.jpg */,
+				6C5C96191AEE7B9E00A24E3D /* Whitechapel 3.jpg */,
+				6C5C961A1AEE7B9E00A24E3D /* Whitechapel 4.jpg */,
+				6C5C961B1AEE7B9E00A24E3D /* Whitechapel 5.jpg */,
+				6C5C961C1AEE7B9E00A24E3D /* Whitechapel 6.jpg */,
+				6C5C961D1AEE7B9E00A24E3D /* Whitechapel Art Gallery.html */,
+				6C5C961E1AEE7B9E00A24E3D /* Whitechapel.jpg */,
+			);
+			path = "Whitechapel Art Gallery";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		352531C91AB76D33004747E6 /* JEE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 352531EB1AB76D33004747E6 /* Build configuration list for PBXNativeTarget "JEE" */;
+			buildPhases = (
+				352531C61AB76D33004747E6 /* Sources */,
+				352531C71AB76D33004747E6 /* Frameworks */,
+				352531C81AB76D33004747E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JEE;
+			productName = JEE;
+			productReference = 352531CA1AB76D33004747E6 /* JEE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		352531E01AB76D33004747E6 /* JEETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 352531EE1AB76D33004747E6 /* Build configuration list for PBXNativeTarget "JEETests" */;
+			buildPhases = (
+				352531DD1AB76D33004747E6 /* Sources */,
+				352531DE1AB76D33004747E6 /* Frameworks */,
+				352531DF1AB76D33004747E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				352531E31AB76D33004747E6 /* PBXTargetDependency */,
+			);
+			name = JEETests;
+			productName = JEETests;
+			productReference = 352531E11AB76D33004747E6 /* JEETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		352531C21AB76D33004747E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Robert Cinca";
+				TargetAttributes = {
+					352531C91AB76D33004747E6 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 73TYMHE49J;
+						LastSwiftMigration = 0900;
+					};
+					352531E01AB76D33004747E6 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 73TYMHE49J;
+						LastSwiftMigration = 0900;
+						TestTargetID = 352531C91AB76D33004747E6;
+					};
+				};
+			};
+			buildConfigurationList = 352531C51AB76D33004747E6 /* Build configuration list for PBXProject "JEE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 352531C11AB76D33004747E6;
+			productRefGroup = 352531CB1AB76D33004747E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				352531C91AB76D33004747E6 /* JEE */,
+				352531E01AB76D33004747E6 /* JEETests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		352531C81AB76D33004747E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C5C94EA1AEE612500A24E3D /* Brick Lane .html in Resources */,
+				6C5C95181AEE6D9D00A24E3D /* Freedom Press 1.jpg in Resources */,
+				6C5C96151AEE7B7700A24E3D /* Victoria Park 1.jpg in Resources */,
+				6C5C956D1AEE740800A24E3D /* Liverpool Street 8.jpg in Resources */,
+				6C5C95BE1AEE784E00A24E3D /* Sandy's Row 2.jpg in Resources */,
+				6C5C93951AED45E000A24E3D /* Image3.jpg in Resources */,
+				6C5C95D61AEE796200A24E3D /* Boxing 1.jpg in Resources */,
+				6C5C95731AEE745B00A24E3D /* London School of Economics .html in Resources */,
+				6C5C96201AEE7B9E00A24E3D /* Whitechapel 3.jpg in Resources */,
+				6C5C95D91AEE796200A24E3D /* Boxing 3.jpg in Resources */,
+				6C5C95BD1AEE784E00A24E3D /* Sandy's Row 1.jpg in Resources */,
+				6C5C959A1AEE751900A24E3D /* Needle Trades Memorial.jpg in Resources */,
+				6C5C94ED1AEE612500A24E3D /* Image 3.jpg in Resources */,
+				6C5C94DE1AEE5F1800A24E3D /* Dirty Dicks Pub.html in Resources */,
+				6C5C958E1AEE74EA00A24E3D /* Museum of Childhood .html in Resources */,
+				6C5C957B1AEE749E00A24E3D /* Mark Gertler on Elder Street 2.jpg in Resources */,
+				6C5C96141AEE7B7700A24E3D /* Victoria Park .html in Resources */,
+				6C5C95C81AEE78FC00A24E3D /* Soup Kitchen 3.png in Resources */,
+				6C5C960A1AEE7B4800A24E3D /* UCL 5.jpg in Resources */,
+				6C5C952A1AEE6E9700A24E3D /* Boxing York Hall.html in Resources */,
+				353374BC1AE922AD003E0D6B /* Bethnal Green Great Synagogue.jpg in Resources */,
+				6C5C95A21AEE769F00A24E3D /* Peter Sellers' House.html in Resources */,
+				6C5C94EC1AEE612500A24E3D /* Image 2.jpg in Resources */,
+				6C5C95C91AEE78FC00A24E3D /* Soup Kitchen For the Jewish Poor.html in Resources */,
+				6C5C951D1AEE6D9D00A24E3D /* Freedom Press 6.jpg in Resources */,
+				6C5C95921AEE74EA00A24E3D /* Museum of Childhood 4.jpg in Resources */,
+				6C5C95421AEE6F1100A24E3D /* Israel Zangwill 3.jpg in Resources */,
+				6C5C95DD1AEE796200A24E3D /* Boxing 7.jpg in Resources */,
+				6C5C95AD1AEE77D700A24E3D /* Princelet Street 2.jpg in Resources */,
+				6C5C95F51AEE7ABF00A24E3D /* the Cut Corner.jpg in Resources */,
+				6C5C95741AEE745B00A24E3D /* London School of Economics 1.png in Resources */,
+				6C5C95841AEE74C700A24E3D /* Museum Gardens .html in Resources */,
+				6C5C95E51AEE7A0B00A24E3D /* St Johns restaurant 1.jpg in Resources */,
+				6C5C95191AEE6D9D00A24E3D /* Freedom Press 2.jpg in Resources */,
+				6C5C95431AEE6F1100A24E3D /* Israel Zangwill 4.jpg in Resources */,
+				6C5C951F1AEE6D9D00A24E3D /* Freedom Press 8.jpg in Resources */,
+				6C5C958F1AEE74EA00A24E3D /* Museum of Childhood 1.jpg in Resources */,
+				6C5C95E71AEE7A0B00A24E3D /* St. Johns Restaurant.html in Resources */,
+				6C5C95581AEE73E600A24E3D /* Liberty Bell .html in Resources */,
+				6C5C95251AEE6E1B00A24E3D /* Hackney Wick 2.jpg in Resources */,
+				359F8E121AEFD2520013A758 /* AppIcon.png in Resources */,
+				6C5C956A1AEE740800A24E3D /* Liverpool Street 5.jpg in Resources */,
+				6C5C95A71AEE775A00A24E3D /* Ping Pong.jpg in Resources */,
+				6C5C95DE1AEE796200A24E3D /* Boxing 8.jpg in Resources */,
+				353374BB1AE922AD003E0D6B /* Bethnal Green Great Synagogue 4.jpg in Resources */,
+				6C5C957D1AEE749E00A24E3D /* Mark Gertler on Elder Street 4.jpg in Resources */,
+				6C5C961F1AEE7B9E00A24E3D /* Whitechapel 2.jpg in Resources */,
+				6C5C951C1AEE6D9D00A24E3D /* Freedom Press 5.jpg in Resources */,
+				6C5C96221AEE7B9E00A24E3D /* Whitechapel 5.jpg in Resources */,
+				6C5C95011AEE686E00A24E3D /* aboutus.html in Resources */,
+				6C5C95E01AEE796200A24E3D /* Sport Boxing.html in Resources */,
+				6C5C95861AEE74C700A24E3D /* Museum Gardens 2.jpg in Resources */,
+				6C5C95931AEE74EA00A24E3D /* Museum of Childhood 5.jpg in Resources */,
+				6C5C957E1AEE749E00A24E3D /* Mark Gertler on Elder Street.jpg in Resources */,
+				6C5C951A1AEE6D9D00A24E3D /* Freedom Press 3.png in Resources */,
+				6C5C95DC1AEE796200A24E3D /* Boxing 6.jpg in Resources */,
+				6C5C95AC1AEE77D700A24E3D /* Princelet Street 1.jpg in Resources */,
+				6C5C95ED1AEE7A6C00A24E3D /* Tayyabs 2.jpg in Resources */,
+				6C5C95DB1AEE796200A24E3D /* Boxing 5.jpg in Resources */,
+				6C5C95FA1AEE7B2600A24E3D /* the waste 1.jpg in Resources */,
+				6C5C95991AEE751900A24E3D /* Needle Trades Memorial.html in Resources */,
+				6C5C96071AEE7B4800A24E3D /* UCL 2.jpg in Resources */,
+				6C5C94EB1AEE612500A24E3D /* Image 1.jpg in Resources */,
+				6C5C95AE1AEE77D700A24E3D /* Princelet Street Synagogue.html in Resources */,
+				6C5C951E1AEE6D9D00A24E3D /* Freedom Press 7.jpg in Resources */,
+				6C5C960E1AEE7B4800A24E3D /* UCL 9.jpg in Resources */,
+				6C5C95B51AEE780700A24E3D /* Rinkoffs 2.jpg in Resources */,
+				353374B91AE922AD003E0D6B /* Bethnal Green Great Synagogue 2.jpg in Resources */,
+				6C5C95981AEE751900A24E3D /* Needle Trades Memorial 2.jpg in Resources */,
+				6C5C94F61AEE664700A24E3D /* Eating Jewish in and Around Bloomsbury.html in Resources */,
+				6C5C94F21AEE612500A24E3D /* Image 8.jpg in Resources */,
+				6C5C95361AEE6EE000A24E3D /* Hanbury Street 4.jpg in Resources */,
+				6C5C95261AEE6E1B00A24E3D /* Hackney Wick and Walk back to Camden.html in Resources */,
+				6C5C95441AEE6F1100A24E3D /* Israel Zangwill 5.jpg in Resources */,
+				6C5C96061AEE7B4800A24E3D /* UCL 1.jpg in Resources */,
+				6C5C95DF1AEE796200A24E3D /* Boxing 9.jpg in Resources */,
+				6C5C95681AEE740800A24E3D /* Liverpool Street 3.jpg in Resources */,
+				6C5C959D1AEE756900A24E3D /* Other areas of Jewish Interest.html in Resources */,
+				6C5C95851AEE74C700A24E3D /* Museum Gardens 1.jpg in Resources */,
+				6C5C95911AEE74EA00A24E3D /* Museum of Childhood 3.jpg in Resources */,
+				6C5C94EF1AEE612500A24E3D /* Image 5.jpg in Resources */,
+				6C5C93921AED45E000A24E3D /* Bevis Marks Synagogue.html in Resources */,
+				6C5C95481AEE71BE00A24E3D /* Jewish and Jewish Friendly bookshops.html in Resources */,
+				6C5C95B61AEE780700A24E3D /* Rinkoffs 3.jpg in Resources */,
+				352531DC1AB76D33004747E6 /* LaunchScreen.xib in Resources */,
+				6C5C95241AEE6E1B00A24E3D /* Hackney Wick 1.jpg in Resources */,
+				6C5C94FA1AEE674300A24E3D /* Entrance Arch .html in Resources */,
+				6C5C960B1AEE7B4800A24E3D /* UCL 6.jpg in Resources */,
+				6C5C953F1AEE6F1100A24E3D /* Israel Zangwill .html in Resources */,
+				6C5C95C61AEE78FC00A24E3D /* Soup Kitchen 1.jpg in Resources */,
+				6C5C95321AEE6EE000A24E3D /* Hanbury Street .html in Resources */,
+				6C5C960D1AEE7B4800A24E3D /* UCL 8.jpg in Resources */,
+				6C5C95061AEE6C9D00A24E3D /* Fieldgate Street Synagogue.html in Resources */,
+				6C5C96161AEE7B7700A24E3D /* Victoria Park 2.jpg in Resources */,
+				6C5C95531AEE73BE00A24E3D /* Lenin and Bloomsbury.html in Resources */,
+				6C5C94EE1AEE612500A24E3D /* Image 4.jpg in Resources */,
+				6C5C950C1AEE6D4800A24E3D /* Fournier Street.jpg in Resources */,
+				6C5C94FB1AEE674300A24E3D /* Entrance Arch.jpg in Resources */,
+				6C5C95D81AEE796200A24E3D /* Boxing 2.png in Resources */,
+				6C5C954E1AEE737B00A24E3D /* Kings College London .html in Resources */,
+				352531D91AB76D33004747E6 /* Images.xcassets in Resources */,
+				35FC5A141ABB11EB00A9FDC6 /* Main.storyboard in Resources */,
+				6C5C95B71AEE780700A24E3D /* Rinkoffs Cheesecake .html in Resources */,
+				6C5C956F1AEE740800A24E3D /* Liverpool Street Rail Station.html in Resources */,
+				6C5C956B1AEE740800A24E3D /* Liverpool Street 6.jpg in Resources */,
+				6C5C952B1AEE6E9700A24E3D /* York Hall.jpg in Resources */,
+				6C5C960F1AEE7B4800A24E3D /* University College London .html in Resources */,
+				6C5C95411AEE6F1100A24E3D /* Israel Zangwill 2.jpg in Resources */,
+				6C5C95401AEE6F1100A24E3D /* Israel Zangwill 1.jpg in Resources */,
+				6C5C96251AEE7B9E00A24E3D /* Whitechapel.jpg in Resources */,
+				6C5C951B1AEE6D9D00A24E3D /* Freedom Press 4.png in Resources */,
+				6C5C956E1AEE740800A24E3D /* Liverpool Street 9.jpg in Resources */,
+				6C5C955A1AEE73E600A24E3D /* Liberty Bell 2.jpg in Resources */,
+				6C5C94F11AEE612500A24E3D /* Image 7.jpg in Resources */,
+				6C5C94F31AEE612500A24E3D /* Image 9.jpg in Resources */,
+				6C5C94F01AEE612500A24E3D /* Image 6.jpg in Resources */,
+				6C5C95A61AEE775A00A24E3D /* Ping Pong and Jewish Culture.html in Resources */,
+				6C5C95171AEE6D9D00A24E3D /* Freedom Press .html in Resources */,
+				6C5C95F31AEE7ABF00A24E3D /* The Cut Corner .html in Resources */,
+				6C5C95521AEE73BE00A24E3D /* Lenin 1.jpg in Resources */,
+				6C5C950B1AEE6D4800A24E3D /* Fournier Street .html in Resources */,
+				6C5C95D71AEE796200A24E3D /* Boxing 2.jpg in Resources */,
+				6C5C95341AEE6EE000A24E3D /* Hanbury Street 2.png in Resources */,
+				6C5C957C1AEE749E00A24E3D /* Mark Gertler on Elder Street 3.jpg in Resources */,
+				6C5C95691AEE740800A24E3D /* Liverpool Street 4.jpg in Resources */,
+				6C5C954B1AEE732100A24E3D /* Jewish Daily Post .html in Resources */,
+				6C5C95071AEE6C9D00A24E3D /* Fieldgate Street.jpg in Resources */,
+				6C5C95E61AEE7A0B00A24E3D /* St Johns restaurant 2.jpg in Resources */,
+				6C5C95591AEE73E600A24E3D /* Liberty Bell 1.jpg in Resources */,
+				6C5C96211AEE7B9E00A24E3D /* Whitechapel 4.jpg in Resources */,
+				6C5C95331AEE6EE000A24E3D /* Hanbury Street 1.jpg in Resources */,
+				6C5C96241AEE7B9E00A24E3D /* Whitechapel Art Gallery.html in Resources */,
+				6C5C957F1AEE749E00A24E3D /* Marko Gertler on Elder Street.html in Resources */,
+				6C5C93931AED45E000A24E3D /* Image1.jpg in Resources */,
+				6C5C95DA1AEE796200A24E3D /* Boxing 4.jpg in Resources */,
+				6C5C95F91AEE7B2600A24E3D /* Mass Politics in 'the Waste'.html in Resources */,
+				6C5C94DC1AEE5F1800A24E3D /* Dirty Dicks 1.jpg in Resources */,
+				6C5C95EE1AEE7A6C00A24E3D /* Tayyabs Punjabi Restaurant.html in Resources */,
+				6C5C93941AED45E000A24E3D /* Image2.jpg in Resources */,
+				6C5C95351AEE6EE000A24E3D /* Hanbury Street 3.jpg in Resources */,
+				6C5C95B41AEE780700A24E3D /* Rinkoffs 1.jpg in Resources */,
+				6C5C95F41AEE7ABF00A24E3D /* the Cut Corner 2.jpg in Resources */,
+				6C5C96091AEE7B4800A24E3D /* UCL 4.jpg in Resources */,
+				6C5C94DD1AEE5F1800A24E3D /* Dirty Dicks 2.jpg in Resources */,
+				6C5C95C71AEE78FC00A24E3D /* Soup Kitchen 2.jpg in Resources */,
+				6C5C95671AEE740800A24E3D /* Liverpool Street 2.jpg in Resources */,
+				6C5C960C1AEE7B4800A24E3D /* UCL 7.jpg in Resources */,
+				6C5C95901AEE74EA00A24E3D /* Museum of Childhood 2.jpg in Resources */,
+				6C5C95661AEE740800A24E3D /* Liverpool Street 1.jpg in Resources */,
+				353374BA1AE922AD003E0D6B /* Bethnal Green Great Synagogue 3.jpg in Resources */,
+				6C5C95451AEE6F1100A24E3D /* Israel Zangwill 6.jpg in Resources */,
+				353374B31AE921B9003E0D6B /* Bethnal Green Great Synagogue.html in Resources */,
+				6C5C95A11AEE769F00A24E3D /* Peter Sellers 1.jpg in Resources */,
+				35C8CF901AB9D4DA008D2027 /* ContentStyle.css in Resources */,
+				6C5C956C1AEE740800A24E3D /* Liverpool Street 7.jpg in Resources */,
+				6C5C95EC1AEE7A6C00A24E3D /* Tayyabs 1.jpg in Resources */,
+				6C5C96231AEE7B9E00A24E3D /* Whitechapel 6.jpg in Resources */,
+				6C5C95C01AEE784E00A24E3D /* Sandy's Row Synagogue.html in Resources */,
+				6C5C95BF1AEE784E00A24E3D /* Sandy's Row 3.jpg in Resources */,
+				6C5C96081AEE7B4800A24E3D /* UCL 3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		352531DF1AB76D33004747E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		352531C61AB76D33004747E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				352531F61AB786D1004747E6 /* Directory.swift in Sources */,
+				352531D41AB76D33004747E6 /* AboutUsPage.swift in Sources */,
+				35729D8C1AE900A10028B09B /* LandMark.swift in Sources */,
+				352531D01AB76D33004747E6 /* AppDelegate.swift in Sources */,
+				35FC5A0C1ABAEE1000A9FDC6 /* LastVisited.swift in Sources */,
+				352531D21AB76D33004747E6 /* Map.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		352531DD1AB76D33004747E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				352531E81AB76D33004747E6 /* JEETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		352531E31AB76D33004747E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 352531C91AB76D33004747E6 /* JEE */;
+			targetProxy = 352531E21AB76D33004747E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		352531DA1AB76D33004747E6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				352531DB1AB76D33004747E6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		352531E91AB76D33004747E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Robert Cinca (CRFV6WDPYY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Robert Cinca (CRFV6WDPYY)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "2dec97f6-3623-43f1-a4fb-b7fe246e2c87";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		352531EA1AB76D33004747E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Robert Cinca (CRFV6WDPYY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Robert Cinca (CRFV6WDPYY)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "2dec97f6-3623-43f1-a4fb-b7fe246e2c87";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		352531EC1AB76D33004747E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = JEE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.ucl.advances.faculty.cs.jewisheastendegooglemap;
+				PRODUCT_NAME = JEE;
+				PROVISIONING_PROFILE = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		352531ED1AB76D33004747E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = JEE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.ucl.advances.faculty.cs.jewisheastendegooglemap;
+				PRODUCT_NAME = JEE;
+				PROVISIONING_PROFILE = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		352531EF1AB76D33004747E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JEETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UCL.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = JEETests;
+				PROVISIONING_PROFILE = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JEE.app/JEE";
+			};
+			name = Debug;
+		};
+		352531F01AB76D33004747E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JEETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UCL.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = JEETests;
+				PROVISIONING_PROFILE = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JEE.app/JEE";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		352531C51AB76D33004747E6 /* Build configuration list for PBXProject "JEE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				352531E91AB76D33004747E6 /* Debug */,
+				352531EA1AB76D33004747E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		352531EB1AB76D33004747E6 /* Build configuration list for PBXNativeTarget "JEE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				352531EC1AB76D33004747E6 /* Debug */,
+				352531ED1AB76D33004747E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		352531EE1AB76D33004747E6 /* Build configuration list for PBXNativeTarget "JEETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				352531EF1AB76D33004747E6 /* Debug */,
+				352531F01AB76D33004747E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 352531C21AB76D33004747E6 /* Project object */;
+}

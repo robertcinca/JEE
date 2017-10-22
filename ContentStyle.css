@@ -1,0 +1,26 @@
+body {
+    color: #eeeeee;
+    background: #a0a088;
+    font-family:Helvetica;}
+h1 {
+    color: #dd1111;
+    font-family:Chalkduster;
+    font-size: 18pt}
+p {
+    text-align: justify
+}
+img{
+    padding-left:0;
+    max-width: 98%;
+    height: auto;
+    box-shadow: 3px 3px 3px 0px #202020}
+.navbar {
+    background-color: #000000;
+    color: white;
+    position: absolute;
+    top: 0em;
+    left: 0em;
+    width: 100% }
+.content{
+    padding-left: 1em;
+    padding-top: 1em;}
